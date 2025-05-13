@@ -4,6 +4,18 @@ import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      console.log('Searching for:', searchQuery); // Replace with navigation or API call
+      // Example: navigate(`/search?query=${searchQuery}`);
+      setSearchQuery('');
+      setSearchOpen(false);
+    }
+  };
 
   return (
     <nav className="modern-navbar">
@@ -12,17 +24,23 @@ const Navbar = () => {
       </div>
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        {['Work', 'About', 'Playground', 'Resource'].map((text, i) => (
-          <li key={i}>
-            <a href="#">
-              <span className="roller">{text}</span>
-            </a>
-          </li>
-        ))}
+        <li><a href="/home"><span className="roller">Home</span></a></li>
+        <li><a href="/products"><span className="roller">Products</span></a></li>
+        <li><a href="/playground"><span className="roller">Cart</span></a></li>
+        <li><a href="/resources"><span className="roller">Checkout</span></a></li>
       </ul>
 
       <div className="nav-icons">
-        <button className="icon-button" title="Search">
+        <form onSubmit={handleSearchSubmit} className={`search-form ${searchOpen ? 'visible' : ''}`}>
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search..."
+            className="search-input"
+          />
+        </form>
+        <button className="icon-button" title="Search" onClick={() => setSearchOpen(!searchOpen)}>
           <FiSearch />
         </button>
         <button className="icon-button" title="Cart">
