@@ -141,3 +141,20 @@ body {
     display: none;
   }
 }
+.search-form {
+  display: none;
+  position: relative;
+}
+
+.search-form.visible {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 0.9rem;
+}
