@@ -18,3 +18,8 @@
 .icon-button:hover {
   background: #eee;
 }
+@media (max-width: 768px) {
+  .nav-icons {
+    display: none;
+  }
+}
