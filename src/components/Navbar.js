@@ -10,8 +10,7 @@ const Navbar = () => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      console.log('Searching for:', searchQuery); // Replace with navigation or API call
-      // Example: navigate(`/search?query=${searchQuery}`);
+      console.log('Searching for:', searchQuery);
       setSearchQuery('');
       setSearchOpen(false);
     }
