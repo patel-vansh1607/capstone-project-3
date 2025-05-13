@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-/* import '../styles/modernNavbar.css'; */
+import '../styles/Navbar.css';
 import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="modern-navbar">
       <div className="nav-logo">
-        <h1>Logo</h1>
+        <h1>technologia</h1>
       </div>
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
