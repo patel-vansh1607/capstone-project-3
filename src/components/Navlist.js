@@ -41,7 +41,7 @@ const menuItems = [
   },
 ];
 
-const Navlist = () => {
+const NavList = () => {
   const [activeMenu, setActiveMenu] = useState(null);
 
   return (
@@ -73,4 +73,4 @@ const Navlist = () => {
 }; 
 
 
-export  default Navlist;
+export  default NavList;
