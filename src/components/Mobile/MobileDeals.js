@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import phones from "./data";
+import phones from "../../data/phonedata";
 import "./MobileDeals.css";
 
 const MobileDeals = () => {
