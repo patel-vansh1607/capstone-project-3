@@ -1,14 +1,12 @@
 import './App.css';
-import Carousel from './components/Carousel';
 import Navbar from './components/Navbar';
-import NavList from './components/Navlist/NavList';
-import Products from './pages/Products';
-
+// import NavList from './components/NavList';
+import Navlist from './components/Navlist';
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <NavList />
+      <Navlist />
     </div>
   );
 }

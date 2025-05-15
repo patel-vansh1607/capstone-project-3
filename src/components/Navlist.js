@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/NavList.css";
 
 const menuItems = [
   {
     title: "Electronics",
-    items: ["Mobiles", "Laptops", "Cameras", "Accessories"],
+    items: ["Mobiles", "Laptops", "Cameras", "Tablets"],
   },
   {
     title: "TVs & Appliances",
@@ -52,16 +53,16 @@ const Navlist = () => {
           onMouseEnter={() => setActiveMenu(index)}
           onMouseLeave={() => setActiveMenu(null)}
         >
-          <a href={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}`}>{menu.title}</a>
+          <Link to={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}`}>{menu.title}</Link>
           {menu.items.length > 0 && activeMenu === index && (
             <div className="dropdown">
               {menu.items.map((item, idx) => (
-                <a
+                <Link
                   key={idx}
-                  href={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}/${item.toLowerCase().replace(/ /g, "-")}`}
+                  to={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}/${item.toLowerCase().replace(/ /g, "-")}`}
                 >
                   {item}
-                </a>
+                </Link>
               ))}
             </div>
           )}
@@ -69,6 +70,7 @@ const Navlist = () => {
       ))}
     </nav>
   );
-};
+}; 
 
-export default Navlist;
+
+export  default Navlist;

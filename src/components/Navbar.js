@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <li><a href="/home"><span className="roller">Home</span></a></li>
+        <li><a href="/"><span className="roller">Home</span></a></li>
         <li><a href="/products"><span className="roller">Products</span></a></li>
         <li><a href="/playground"><span className="roller">Cart</span></a></li>
         <li><a href="/resources"><span className="roller">Checkout</span></a></li>
