@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Mobile from './pages/Mobile';
+import Laptop from './pages/Laptop';
 import PhoneDetails from './components/Mobile/PhoneDetails';
+import LaptopDetails from './components/Laptop/LaptopDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
     path: "/phone/:id", 
     element: <PhoneDetails />,
   },
+  {
+    path: "/electronics/laptops",
+    element: <Laptop />,
+  },
+  {
+    path: "/laptops/:id", 
+    element:<LaptopDetails />,
+  }
 ])
 root.render(
   <React.StrictMode>
