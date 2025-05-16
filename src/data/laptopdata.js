@@ -1,5 +1,3 @@
-
-
 const phones = [
   {
     id: "samsung-galaxy-s23-ultra",
