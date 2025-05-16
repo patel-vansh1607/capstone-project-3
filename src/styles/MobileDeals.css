@@ -1,0 +1,120 @@
+/* General layout */
+.deals-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.phone-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.phone-card:hover {
+  transform: scale(1.03);
+}
+
+.phone-image {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: orange;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.phone-name {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.phone-price {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.phone-original {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 13px;
+}
+
+/* Phone Details Page */
+.phone-details {
+  padding: 20px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: 14px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.info {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.detail-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e53935;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #777;
+  margin-left: 8px;
+}
+
+.discount {
+  color: green;
+  margin-left: 8px;
+}
+
+.buy-btn {
+  background: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .details-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
