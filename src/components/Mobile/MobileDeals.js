@@ -9,7 +9,7 @@ const MobileDeals = () => {
       {phones.map((phone) => (
         <Link to={`/phone/${phone.id}`} key={phone.id} className="phone-card">
           {phone.discount && <span className="discount-badge">{phone.discount}</span>}
-          <img src={`images/${phone.image}`} alt={phone.name} className="phone-image" />
+          <img src={phone.image} alt={phone.name} className="phone-image" />
           <h3 className="phone-name">{phone.name}</h3>
           <p className="phone-price">KSh {phone.price.toLocaleString()}</p>
           {phone.originalPrice && (

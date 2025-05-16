@@ -4,7 +4,7 @@ const phones = [
   {
     id: "samsung-galaxy-s23-ultra",
     name: "Samsung Galaxy S23 Ultra",
-    image: "/public/assets/iphone-13.jpeg",
+    image: "https://i.ibb.co/zh8wHR2N/flag-india.jpg",
     price: 119999,
     originalPrice: 129999,
     discount: "-8%",
