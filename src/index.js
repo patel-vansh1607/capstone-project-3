@@ -8,6 +8,8 @@ import Mobile from './pages/Mobile';
 import Laptop from './pages/Laptop';
 import PhoneDetails from './components/Mobile/PhoneDetails';
 import LaptopDetails from './components/Laptop/LaptopDetails';
+import CameraDetails from './components/Cameras/CameraDetails';
+import Camera from './pages/Camera';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
   {
     path: "/laptops/:id", 
     element:<LaptopDetails />,
+  },
+  {
+    path: "/electronics/cameras",
+    element: <Camera />,
+  },
+  {
+    path: "/camera/:id", 
+    element:<CameraDetails />,
   }
 ])
 root.render(
