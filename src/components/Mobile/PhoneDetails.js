@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import phones from "../../data/phonedata";
-import "./MobileDeals.css";
+import "../../styles/MobileDeals.css";
 
 const PhoneDetails = () => {
     const { id } = useParams();
