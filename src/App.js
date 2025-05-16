@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Navlist />
-      {/* <MobileDeals /> */}
+      <MobileDeals />
       <LaptopDeals />
       <Footer />
     </div>
