@@ -15,7 +15,7 @@ const PhoneDetails = () => {
     <div className="phone-details">
       <Link to="/" className="back-link">← Back to deals</Link>
       <div className="details-container">
-        <img src={`images/${phone.image}`} alt={phone.name} className="detail-image" />
+        <img src={phone.image} alt={phone.name} className="detail-image" />
         <div className="info">
           <span className="warranty">{phone.warranty}</span>
           <h2>{phone.name}</h2>
