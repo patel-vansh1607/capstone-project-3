@@ -1,4 +1,11 @@
-/* General layout */
+@font-face {
+  font-family: 'CabinReg', ;
+  src: url(../fonts/Cabin/Cabin-Italic.ttf);
+}
+@font-face {
+  font-family: 'Reg';
+  src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf);
+}
 .deals-container {
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +38,7 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  background: orange;
+  background: #388e3c;
   color: white;
   font-size: 12px;
   padding: 2px 6px;
@@ -39,19 +46,21 @@
 }
 
 .phone-name {
-  font-size: 14px;
+  font-size: 19px;
   margin-top: 8px;
+  font-family: 'Reg', sans-serif;
 }
-
 .phone-price {
-  color: #e53935;
+  color: #000000;
   font-weight: bold;
+  font-family: 'Reg', sans-serif
 }
 
 .phone-original {
   text-decoration: line-through;
   color: #888;
-  font-size: 13px;
+  font-size: 16px;
+  font-family: 'Reg', sans-serif
 }
 
 /* Phone Details Page */
@@ -116,5 +125,78 @@
   .details-container {
     flex-direction: row;
     align-items: flex-start;
+  }
+}
+.phone-details {
+  padding: 20px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #0077cc;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.detail-price {
+  font-size: 1.5rem;
+  color: green;
+  margin: 10px 0;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.buy-btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #005fa3;
+}
+
+@media screen and (max-width: 768px) {
+  .details-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail-image {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
   }
 }

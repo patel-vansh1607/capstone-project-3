@@ -8,6 +8,7 @@ import Mobile from './pages/Mobile';
 import Laptop from './pages/Laptop';
 import PhoneDetails from './components/Mobile/PhoneDetails';
 import LaptopDetails from './components/Laptop/LaptopDetails';
+import { CartProvider } from './components/CartContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -35,9 +36,9 @@ const router = createBrowserRouter([
   }
 ])
 root.render(
-  <React.StrictMode>
+  <CartProvider>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </CartProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
