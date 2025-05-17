@@ -1,4 +1,4 @@
-const phones = [
+const laptop = [
   {
     id: "dell-xps-15-9520",
     name: "Dell XPS 15 (9520)",
@@ -222,4 +222,4 @@ const phones = [
   },
 ];
 
-export default phones;
+export default laptop;

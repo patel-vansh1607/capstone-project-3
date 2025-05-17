@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import phones from "../../data/tablets";
+import phones from "../../data/";
 import "../../styles/MobileDeals.css";
 
 const LaptopDeals = () => {

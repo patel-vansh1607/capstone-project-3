@@ -9,7 +9,9 @@ import Laptop from './pages/Laptop';
 import PhoneDetails from './components/Mobile/PhoneDetails';
 import LaptopDetails from './components/Laptop/LaptopDetails';
 import CameraDetails from './components/Cameras/CameraDetails';
+import TabletDetails from './components/Tablets/TabletsDetails';
 import Camera from './pages/Camera';
+import Tablet from './pages/Tablet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -42,6 +44,14 @@ const router = createBrowserRouter([
   {
     path: "/camera/:id", 
     element:<CameraDetails />,
+  },
+  {
+    path: "/electronics/tablets",
+    element: <Tablet />,
+  },
+  {
+    path: "/tablet/:id", 
+    element:<TabletDetails />,
   }
 ])
 root.render(

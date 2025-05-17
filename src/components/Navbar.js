@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
 import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <li><a href="/"><span className="roller">Home</span></a></li>
         <li><a href="/products"><span className="roller">Products</span></a></li>
-        <li><a href="/playground"><span className="roller">Cart</span></a></li>
+        <li><a href="/cart"><span className="roller">Cart</span></a></li>
         <li><a href="/resources"><span className="roller">Checkout</span></a></li>
       </ul>
 

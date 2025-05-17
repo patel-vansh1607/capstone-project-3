@@ -1,12 +1,12 @@
 import Footer from '../components/Footer';
-import TabletDeals from '../components/Tablets/TabletsDeals';
+import TVDeals from '../components/TV/TVDeals';
 import Navbar from '../components/Navbar';
 
 const Camera = () => {
     return(
         <div>
             <Navbar />
-            <TabletDeals />
+            <TVDeals />
             <Footer />
         </div>
     )
