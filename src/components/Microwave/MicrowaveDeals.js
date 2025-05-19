@@ -6,7 +6,7 @@ const LaptopDeals = () => {
   return (
     <div className="deals-container">
       {phones.map((phone) => (
-        <Link to={`/phone/${phone.id}`} key={phone.id} className="phone-card">
+        <Link to={`/microwaves/${phone.id}`} key={phone.id} className="phone-card">
           {phone.discount && <span className="discount-badge">{phone.discount}</span>}
           <img src={phone.image} alt={phone.name} className="phone-image" />
           <h3 className="phone-name">{phone.name}</h3>
