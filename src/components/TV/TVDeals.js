@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import phones from "../../data/";
+import phones from "../../data/tvdata";
 import "../../styles/MobileDeals.css";
 
 const LaptopDeals = () => {
