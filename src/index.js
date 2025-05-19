@@ -12,12 +12,14 @@ import CameraDetails from './components/Cameras/CameraDetails';
 import TabletDetails from './components/Tablets/TabletsDetails';
 import RefrigeratorDetails from './components/Refrigerator/RefrigeratorDetails';
 import WMachinesDetails from './components/WMachines/WMachinesDetails';
+import MicrowaveDetails from './components/Microwave/MicrowaveDetails';
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
 import TV from './pages/TV';
 import Refrigerator from './pages/Refrigerator';
 import WMachines from './pages/WMachines';
+import Microwave from './pages/Microwave';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -82,6 +84,14 @@ const router = createBrowserRouter([
   {
     path: "/washing-machines/:id", 
     element:<WMachinesDetails />,
+  },
+  {
+    path: "/tvs-appliances/microwaves",
+    element: <Microwave />,
+  },
+  {
+    path: "/microwaves/:id", 
+    element:<MicrowaveDetails />,
   }
 ])
 root.render(
