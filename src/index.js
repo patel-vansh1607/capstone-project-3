@@ -16,6 +16,7 @@ import MicrowaveDetails from './components/Microwave/MicrowaveDetails';
 import MensTShirtDetails from './components/MensTShirt/MensTShirtDetails';
 import MensShirtDetails from './components/MensShirt/MensShirtDetails';
 import MensJeansDetails from './components/MensJeans/MensJeansDetails';
+import MensShoesDetails from './components/MensShoes/MensShoesDetails'
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
@@ -26,6 +27,7 @@ import Microwave from './pages/Microwave';
 import MensTShirt from './pages/MensTShirt';
 import MensShirt from './pages/MensShirt';
 import MensJeans from './pages/MensJeans';
+import MensShoes from './pages/MensShoes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -122,6 +124,14 @@ const router = createBrowserRouter([
   {
     path: "/jeans/:id", 
     element:<MensJeansDetails />,
+  },
+  {
+    path: "/men/shoes",
+    element: <MensShoes />,
+  },
+  {
+    path: "/shoes/:id", 
+    element:<MensShoesDetails />,
   }
 ])
 root.render(
