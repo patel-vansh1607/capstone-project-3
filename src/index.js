@@ -11,11 +11,13 @@ import LaptopDetails from './components/Laptop/LaptopDetails';
 import CameraDetails from './components/Cameras/CameraDetails';
 import TabletDetails from './components/Tablets/TabletsDetails';
 import RefrigeratorDetails from './components/Refrigerator/RefrigeratorDetails';
+import WMachinesDetails from './components/WMachines/WMachinesDetails';
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
 import TV from './pages/TV';
 import Refrigerator from './pages/Refrigerator';
+import WMachines from './pages/WMachines';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -72,6 +74,14 @@ const router = createBrowserRouter([
   {
     path: "/refrigerators/:id", 
     element:<RefrigeratorDetails />,
+  },
+  {
+    path: "/tvs-appliances/washing-machines",
+    element: <WMachines />,
+  },
+  {
+    path: "/washing-machines/:id", 
+    element:<WMachinesDetails />,
   }
 ])
 root.render(
