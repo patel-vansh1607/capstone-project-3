@@ -21,6 +21,7 @@ import WomensTopDetails from './components/WomensTop/WomensTopDetails'
 import WomensDressesDetails from './components/WomensDresses/WomensDressesDetails';
 import WomensJewelleryDetails from './components/WomensJewellery/WomensJewelleryDetails';
 import WomensHandbagsDetails from './components/WomensHandbags/WomensHandbagsDetails';
+import KidsClothingDetails from './components/KidsClothing/KidsClothingDetails';
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
@@ -36,6 +37,7 @@ import WomensTop from './pages/WomensTop';
 import WomensDresses from './pages/WomensDresses';
 import WomensJewellery from './pages/WomenJewellery';
 import WomensHandbag from './pages/WomensHandbag';
+import KidsClothing from './pages/KidsClothing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -172,6 +174,14 @@ const router = createBrowserRouter([
   {
     path: "/handbags/:id", 
     element:<WomensHandbagsDetails />,
+  },
+  {
+    path: "/baby-kids/clothing",
+    element: <KidsClothing />,
+  },
+  {
+    path: "/clothing/:id", 
+    element:<KidsClothingDetails />,
   },
 ])
 root.render(
