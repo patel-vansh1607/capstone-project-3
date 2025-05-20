@@ -27,6 +27,8 @@ import KidsFootwearDetails from './components/KidsFootwear/KidsFootwearsDetails'
 import KidsToysDetails from './components/KidsToys/KidsToysDetails';
 import BedsDetails from './components/Beds/BedsDetails';
 import TVDetails from './components/TV/TVDetails';
+import SofasDetails from './components/Sofas/SofasDetails';
+import DiningDetails from './components/Dining/DiningDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
 import TV from './pages/TV';  
@@ -46,6 +48,8 @@ import KidsToys from './pages/KidsToys';
 import KidsSchoolSupplies from './pages/KidsSchoolSupplies';
 import KidsFootwear from './pages/KidsFootwear';
 import Beds from './pages/Beds';
+import Sofas from './pages/Sofas';
+import Dining from './pages/Dining';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -222,6 +226,22 @@ const router = createBrowserRouter([
   {
     path: "/beds/:id", 
     element:<BedsDetails />,
+  },
+  {
+    path: "/home-furniture/sofas",
+    element: <Sofas />,
+  },
+  {
+    path: "/sofas/:id", 
+    element:<SofasDetails />,
+  },
+  {
+    path: "/home-furniture/dining",
+    element: <Dining />,
+  },
+  {
+    path: "/dining/:id", 
+    element:<DiningDetails />,
   }
 ])
 root.render(
