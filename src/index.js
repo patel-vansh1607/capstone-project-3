@@ -19,6 +19,7 @@ import MensJeansDetails from './components/MensJeans/MensJeansDetails';
 import MensShoesDetails from './components/MensShoes/MensShoesDetails';
 import WomensTopDetails from './components/WomensTop/WomensTopDetails'
 import WomensDressesDetails from './components/WomensDresses/WomensDressesDetails';
+import WomensJewelleryDetails from './components/WomensJewellery/WomensJewelleryDetails';
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
@@ -32,6 +33,7 @@ import MensJeans from './pages/MensJeans';
 import MensShoes from './pages/MensShoes';
 import WomensTop from './pages/WomensTop';
 import WomensDresses from './pages/WomensDresses';
+import WomensJewellery from './pages/WomenJewellery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -152,6 +154,14 @@ const router = createBrowserRouter([
   {
     path: "/dresses/:id", 
     element:<WomensDressesDetails />,
+  },
+  {
+    path: "/women/jewelry",
+    element: <WomensJewellery />,
+  },
+  {
+    path: "/jewelry/:id", 
+    element:<WomensJewelleryDetails />,
   }
 ])
 root.render(
