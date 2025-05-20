@@ -22,6 +22,7 @@ import WomensDressesDetails from './components/WomensDresses/WomensDressesDetail
 import WomensJewelleryDetails from './components/WomensJewellery/WomensJewelleryDetails';
 import WomensHandbagsDetails from './components/WomensHandbags/WomensHandbagsDetails';
 import KidsClothingDetails from './components/KidsClothing/KidsClothingDetails';
+import KidsToysDetails from './components/KidsToys/KidsToysDetails';
 import TVDetails from './components/TV/TVDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
@@ -38,6 +39,7 @@ import WomensDresses from './pages/WomensDresses';
 import WomensJewellery from './pages/WomenJewellery';
 import WomensHandbag from './pages/WomensHandbag';
 import KidsClothing from './pages/KidsClothing';
+import KidsToys from './pages/KidsToys';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -183,6 +185,14 @@ const router = createBrowserRouter([
     path: "/clothing/:id", 
     element:<KidsClothingDetails />,
   },
+  {
+    path: "/baby-kids/toys",
+    element: <KidsToys />,
+  },
+  {
+    path: "/toys/:id", 
+    element:<KidsToysDetails />,
+  }
 ])
 root.render(
   <React.StrictMode>
