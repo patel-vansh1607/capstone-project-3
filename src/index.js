@@ -31,6 +31,7 @@ import SofasDetails from './components/Sofas/SofasDetails';
 import DiningDetails from './components/Dining/DiningDetails';
 import CurtainsDetails from './components/Curtains/CurtainsDetails';
 import BooksDetails from './components/Books/BooksDetails';
+import FitnessDetails from './components/Fitness/FitnessDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
 import TV from './pages/TV';  
@@ -54,7 +55,7 @@ import Sofas from './pages/Sofas';
 import Dining from './pages/Dining';
 import Curtains from './pages/Curtains';
 import Books from './pages/Books';
-
+import Fitness from './pages/Fitness';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -262,6 +263,14 @@ const router = createBrowserRouter([
   {
     path: "/books/:id", 
     element:<BooksDetails />,
+  },
+  {
+    path: "/sports,-books-more/fitness-equipment",
+    element: <Fitness />,
+  },
+  {
+    path: "/fitness/:id", 
+    element:<FitnessDetails />,
   }
 ])
 root.render(
