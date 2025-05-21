@@ -1,7 +1,6 @@
-/* FlipkartPage.css */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Rajdhani:wght@400;600&display=swap');
 
 .technologia-container {
-  font-family: Arial, sans-serif;
   padding: 20px;
   max-width: 1200px;
   margin: auto;
@@ -15,11 +14,14 @@
 
 .section h1, .section h2, .section h3 {
   color: #1a73e8;
+  font-family: 'Cabin', sans-serif;
 }
 
 .section p {
   font-size: 16px;
   margin-top: 10px;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
