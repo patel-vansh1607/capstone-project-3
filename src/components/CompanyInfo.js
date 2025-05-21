@@ -3,7 +3,7 @@ import "../styles/CompanyInfo.css";
 
 const CompanyInfo = () => {
   return (
-    <div className="flipkart-container">
+    <div className="technologia-container">
       <section className="section">
         <h1>Flipkart: The One-stop Shopping Destination</h1>
         <p>
