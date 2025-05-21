@@ -9,7 +9,7 @@ const PhoneDetails = () => {
 
   const phone = phones.find((item) => item.id === id);
   console.log("Matched Phone:", phone);
-  if (!phone) return <h2>Phone not found</h2>;
+  if (!phone) return <h2>Supplies not found</h2>;
 
   return (
     <div className="phone-details">
