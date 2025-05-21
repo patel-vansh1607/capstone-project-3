@@ -32,6 +32,8 @@ import DiningDetails from './components/Dining/DiningDetails';
 import CurtainsDetails from './components/Curtains/CurtainsDetails';
 import BooksDetails from './components/Books/BooksDetails';
 import FitnessDetails from './components/Fitness/FitnessDetails';
+import StationeryDetails from './components/Stationery/StationeryDetails';
+import MusicDetails from './components/Music/MusicDetails';
 import Camera from './pages/Camera';
 import Tablet from './pages/Tablet';
 import TV from './pages/TV';  
@@ -56,6 +58,12 @@ import Dining from './pages/Dining';
 import Curtains from './pages/Curtains';
 import Books from './pages/Books';
 import Fitness from './pages/Fitness';
+import Stationery from './pages/Stationery';
+import Music from './pages/Music';
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -271,6 +279,22 @@ const router = createBrowserRouter([
   {
     path: "/fitness/:id", 
     element:<FitnessDetails />,
+  },
+  {
+    path: "/sports,-books-more/stationery",
+    element: <Stationery />,
+  },
+  {
+    path: "/stationery/:id", 
+    element:<StationeryDetails />,
+  },
+  {
+    path: "/sports,-books-more/music",
+    element: <Music />,
+  },
+  {
+    path: "/music/:id", 
+    element:<MusicDetails />,
   }
 ])
 root.render(
