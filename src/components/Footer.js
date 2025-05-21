@@ -8,41 +8,41 @@ const Footer = () => {
         <div className="footer-section">
           <h4>ABOUT</h4>
           <ul>
-            <li>Contact Us</li>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Flipkart Stories</li>
-            <li>Press</li>
-            <li>Corporate Information</li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Careers</a></li>
+            <li><a href="/">Flipkart Stories</a></li>
+            <li><a href="/">Press</a></li>
+            <li><a href="/">Corporate Information</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>GROUP COMPANIES</h4>
           <ul>
-            <li>Myntra</li>
-            <li>Cleartrip</li>
-            <li>Shopsy</li>
+            <li><a href="/">Myntra</a></li>
+            <li><a href="/">Cleartrip</a></li>
+            <li><a href="/">Shopsy</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>HELP</h4>
           <ul>
-            <li>Payments</li>
-            <li>Shipping</li>
-            <li>Cancellation & Returns</li>
-            <li>FAQ</li>
+            <li><a href="/">Payments</a></li>
+            <li><a href="/">Shipping</a></li>
+            <li><a href="/">Cancellation & Returns</a></li>
+            <li><a href="/">FAQ</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>CONSUMER POLICY</h4>
           <ul>
-            <li>Cancellation & Returns</li>
-            <li>Terms Of Use</li>
-            <li>Security</li>
-            <li>Privacy</li>
-            <li>Sitemap</li>
-            <li>Grievance Redressal</li>
-            <li>EPR Compliance</li>
+            <li><a href="/">Cancellation & Returns</a></li>
+            <li><a href="/">Terms Of Use</a></li>
+            <li><a href="/">Security</a></li>
+            <li><a href="/">Privacy</a></li>
+            <li><a href="/">Sitemap</a></li>
+            <li><a href="/">Grievance Redressal</a></li>
+            <li><a href="/">EPR Compliance</a></li>
           </ul>
         </div>
         <div className="footer-section address">
