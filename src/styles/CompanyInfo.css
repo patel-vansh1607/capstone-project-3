@@ -1,6 +1,6 @@
 /* FlipkartPage.css */
 
-.flipkart-container {
+.technologia-container {
   font-family: Arial, sans-serif;
   padding: 20px;
   max-width: 1200px;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .flipkart-container {
+  .technologia-container {
     padding: 10px;
   }
 
