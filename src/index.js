@@ -60,6 +60,16 @@ import Books from './pages/Books';
 import Fitness from './pages/Fitness';
 import Stationery from './pages/Stationery';
 import Music from './pages/Music';
+import ContactPage from './pages/footer_pages/ContactPage';
+import AboutusPage from './pages/footer_pages/AboutusPage';
+import CarrersPage from './pages/footer_pages/CarrersPage';
+import PayementsPage from './pages/footer_pages/PayementsPage';
+import ShippingPage from './pages/footer_pages/ShippingPage';
+import Cancellation_ReturnPage from './pages/footer_pages/Cancellation_ReturnPage';
+import FAQPage from './pages/footer_pages/FAQPage';
+import TermsOfUsePage from './pages/footer_pages/TermsOfUsePage';
+import SecurityPage from './pages/footer_pages/SecurityPage';
+import PrivacyPage from './pages/footer_pages/PrivacyPage';
 
 
 
@@ -295,6 +305,46 @@ const router = createBrowserRouter([
   {
     path: "/music/:id", 
     element:<MusicDetails />,
+  },
+  {
+    path: "/contact", 
+    element:<ContactPage/>,
+  },
+  {
+    path: "/about-us", 
+    element:<AboutusPage/>,
+  },
+  {
+    path: "/careers", 
+    element:<CarrersPage/>,
+  },
+  {
+    path: "/payements", 
+    element:<PayementsPage/>,
+  },
+  {
+    path: "/shipping", 
+    element:<ShippingPage/>,
+  },
+  {
+    path: "/cancellation-and-returns", 
+    element:<Cancellation_ReturnPage/>,
+  },
+  {
+    path: "/faq", 
+    element:<FAQPage/>,
+  },
+  {
+    path: "/terms-of-use", 
+    element:<TermsOfUsePage/>,
+  },
+  {
+    path: "/security", 
+    element:<SecurityPage/>,
+  },
+  {
+    path: "/privacy", 
+    element:<PrivacyPage/>,
   }
 ])
 root.render(
