@@ -70,6 +70,7 @@ import FAQPage from './pages/footer_pages/FAQPage';
 import TermsOfUsePage from './pages/footer_pages/TermsOfUsePage';
 import SecurityPage from './pages/footer_pages/SecurityPage';
 import PrivacyPage from './pages/footer_pages/PrivacyPage';
+import Electronics from './pages/Electronics';
 
 
 
@@ -345,6 +346,10 @@ const router = createBrowserRouter([
   {
     path: "/privacy", 
     element:<PrivacyPage/>,
+  },
+  {
+    path: "/electronics", 
+    element:<Electronics/>,
   }
 ])
 root.render(
