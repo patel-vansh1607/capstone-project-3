@@ -2,7 +2,7 @@ const phones = [
   {
     id: "dji-mini-4-pro",
     name: "DJI Mini 4 Pro Drone",
-    image: "dji-mini-4-pro.jpeg",
+    image: "/public/assets/iphone-13.jpeg",
     price: 119999,
     originalPrice: 129999,
     discount: "-8%",
