@@ -2,7 +2,7 @@ const laptop = [
    {
     id: "blackout-curtains-pair",
     name: "Blackout Curtains (Set of 2)",
-    image: "blackout-curtains.jpeg",
+    image: "/public/assets/iphone-13.jpeg",
     price: 899,
     originalPrice: 1199,
     discount: "-25%",
