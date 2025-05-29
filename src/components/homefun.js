@@ -2,10 +2,10 @@ import "../styles/ElectronicsPage.css"
 import { useNavigate } from 'react-router-dom';
 
 const products = [
-  { title: "Mobile", image: "/public/assets/iphone-13.jpeg", path: "/electronics/mobiles" },
-  { title: "Laptop", image: "/assets/tv2.png", path: "/electronics/laptops" },
-  { title: "Camera", image: "/assets/tv3.png", path: "/electronics/cameras" },
-  { title: "Tablets", image: "/assets/tv4.png", path: "/electronics/tablets" },
+  { title: "Beds", image: "/public/assets/iphone-13.jpeg", path: "/home-furniture/beds" },
+  { title: "Sofas", image: "/assets/tv2.png", path: "/home-furniture/sofas" },
+  { title: "Dining", image: "/assets/tv3.png", path: "/home-furniture/dining" },
+  { title: "Curtains", image: "/assets/tv4.png", path: "/home-furniture/curtains" },
 ];
 
 const HomeFun = () => {

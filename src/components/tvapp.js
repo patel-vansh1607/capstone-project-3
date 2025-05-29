@@ -2,10 +2,10 @@ import "../styles/ElectronicsPage.css"
 import { useNavigate } from 'react-router-dom';
 
 const products = [
-  { title: "Mobile", image: "/public/assets/iphone-13.jpeg", path: "/electronics/mobiles" },
-  { title: "Laptop", image: "/assets/tv2.png", path: "/electronics/laptops" },
-  { title: "Camera", image: "/assets/tv3.png", path: "/electronics/cameras" },
-  { title: "Tablets", image: "/assets/tv4.png", path: "/electronics/tablets" },
+  { title: "Smsart TVs", image: "/public/assets/iphone-13.jpeg", path: "/tvs-appliances/smart-tvs" },
+  { title: "Refrigerator", image: "/assets/tv2.png", path: "/tvs-appliances/refrigerators" },
+  { title: "Washing Machine", image: "/assets/tv3.png", path: "/tvs-appliances/washing-machines" },
+  { title: "Microwave", image: "/assets/tv4.png", path: "/tvs-appliances/microwaves" },
 ];
 
 const TvApp = () => {
