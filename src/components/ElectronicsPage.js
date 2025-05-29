@@ -2,7 +2,7 @@ import "../styles/ElectronicsPage.css"
 import { useNavigate } from 'react-router-dom';
 
 const products = [
-  { title: "Mobile", image: "/assets/tv1.png", path: "/electronics/mobiles" },
+  { title: "Mobile", image: "/public/assets/iphone-13.jpeg", path: "/electronics/mobiles" },
   { title: "Laptop", image: "/assets/tv2.png", path: "/electronics/laptops" },
   { title: "Camera", image: "/assets/tv3.png", path: "/electronics/cameras" },
   { title: "Tablets", image: "/assets/tv4.png", path: "/electronics/tablets" },
