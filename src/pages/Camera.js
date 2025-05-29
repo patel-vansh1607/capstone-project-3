@@ -1,5 +1,5 @@
 import Footer from '../components/Footer';
-import TabletDeals from '../components/Tablets/TabletsDeals';
+import CameraDeals from '../components/Cameras/CameraDeals';
 import Navbar from '../components/Navbar';
 import NavList from '../components/Navlist';
 
@@ -8,7 +8,7 @@ const Camera = () => {
         <div>
             <Navbar />
             <NavList />
-            <TabletDeals />
+            <CameraDeals />
             <Footer />
         </div>
     )
