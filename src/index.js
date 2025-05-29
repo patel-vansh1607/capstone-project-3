@@ -72,6 +72,13 @@ import SecurityPage from './pages/footer_pages/SecurityPage';
 import PrivacyPage from './pages/footer_pages/PrivacyPage';
 import Electronics from './pages/Electronics';
 
+import TVApp from './pages/TVApp';
+import Men from './pages/men';
+import Women from './pages/women';
+import BabyKids from './pages/babykids';
+import HomeFuniture from './pages/homefuniture';
+import SportMore from './pages/sportsmore';
+
 
 
 
@@ -350,6 +357,30 @@ const router = createBrowserRouter([
   {
     path: "/electronics", 
     element:<Electronics/>,
+  },
+  {
+    path: "/tvs-appliances", 
+    element:<TVApp/>,
+  },
+  {
+    path: "/men", 
+    element:<Men/>,
+  },
+  {
+    path: "/women", 
+    element:<Women/>,
+  },
+  {
+    path: "//baby-kids", 
+    element:<BabyKids/>,
+  },
+  {
+    path: "/home-furniture", 
+    element:<HomeFuniture/>,
+  },
+  {
+    path: "/sports,-books-more", 
+    element:<SportMore/>,
   }
 ])
 root.render(
