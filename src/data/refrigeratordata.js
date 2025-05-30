@@ -2,7 +2,7 @@ const phones = [
   {
     id: "lg-260l-double-door",
     name: "LG 260L Frost Free Double Door Refrigerator",
-    image: "lg-260l-double-door.jpeg",
+    image: "https://i.ibb.co/k2sQFDNd/1.jpg",
     price: 24999,
     originalPrice: 28999,
     discount: "-14%",
@@ -15,7 +15,7 @@ const phones = [
   {
     id: "samsung-253l-double-door",
     name: "Samsung 253L Frost Free Double Door Refrigerator",
-    image: "samsung-253l.jpeg",
+    image: "https://i.ibb.co/TMMDRQtQ/2.jpg",
     price: 23999,
     originalPrice: 27499,
     discount: "-13%",
@@ -28,7 +28,7 @@ const phones = [
   {
     id: "whirlpool-265l-double-door",
     name: "Whirlpool 265L Frost Free Double Door Refrigerator",
-    image: "whirlpool-265l.jpeg",
+    image: "https://i.ibb.co/4RSN0hL0/3.jpg",
     price: 21999,
     originalPrice: 25999,
     discount: "-15%",
@@ -41,7 +41,7 @@ const phones = [
   {
     id: "godrej-236l-double-door",
     name: "Godrej 236L Double Door Refrigerator",
-    image: "godrej-236l.jpeg",
+    image: "https://i.ibb.co/LzY9n4QX/4.jpg",
     price: 19999,
     originalPrice: 22999,
     discount: "-13%",
@@ -54,7 +54,7 @@ const phones = [
   {
     id: "haier-258l-bottom-freezer",
     name: "Haier 258L Frost Free Bottom Freezer Refrigerator",
-    image: "haier-258l.jpeg",
+    image: "https://i.ibb.co/bgCFpfvq/5.jpg",
     price: 24499,
     originalPrice: 27499,
     discount: "-11%",
