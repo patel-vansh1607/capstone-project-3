@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "peter-england-formal-shirt",
     name: "Peter England Men's Slim Fit Formal Shirt",
-    image: "peter-england-formal-shirt.jpeg",
+    image: "https://i.ibb.co/JjfdJv52/1.jpg",
     price: 1199,
     originalPrice: 1699,
     discount: "-29%",
@@ -15,7 +15,7 @@ const laptop = [
   {
     id: "us-polo-casual-shirt",
     name: "U.S. Polo Assn. Men's Checked Casual Shirt",
-    image: "us-polo-shirt.jpeg",
+    image: "https://i.ibb.co/jPns8mQG/2.jpg",
     price: 1699,
     originalPrice: 2299,
     discount: "-26%",
@@ -28,7 +28,7 @@ const laptop = [
   {
     id: "allen-solly-striped-shirt",
     name: "Allen Solly Men's Slim Fit Striped Shirt",
-    image: "allen-solly-striped-shirt.jpeg",
+    image: "https://i.ibb.co/1JZcnZRF/3.jpg",
     price: 1499,
     originalPrice: 1999,
     discount: "-25%",
@@ -41,7 +41,7 @@ const laptop = [
   {
     id: "roadster-denim-shirt",
     name: "Roadster Men's Faded Denim Shirt",
-    image: "roadster-denim-shirt.jpeg",
+    image: "https://i.ibb.co/9kZXnZn4/4.jpg",
     price: 1399,
     originalPrice: 1899,
     discount: "-26%",
@@ -54,7 +54,7 @@ const laptop = [
   {
     id: "levis-solid-shirt",
     name: "Levi's Men's Solid Regular Fit Shirt",
-    image: "levis-solid-shirt.jpeg",
+    image: "https://i.ibb.co/7JQ1rdLS/5.jpg",
     price: 1799,
     originalPrice: 2499,
     discount: "-28%",
