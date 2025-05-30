@@ -2,7 +2,7 @@ const phones = [
   {
     id: "baby-cotton-romper",
     name: "Baby Cotton Romper Set",
-    image: "baby-cotton-romper.jpeg",
+    image: "https://i.ibb.co/bVckZfn/1.jpg",
     price: 499,
     originalPrice: 699,
     discount: "-29%",
@@ -14,7 +14,7 @@ const phones = [
   {
     id: "kids-tshirt-shorts",
     name: "Kids T-Shirt & Shorts Combo",
-    image: "kids-tshirt-shorts.jpeg",
+    image: "https://i.ibb.co/RkVMd580/2.jpg",
     price: 599,
     originalPrice: 799,
     discount: "-25%",
@@ -26,7 +26,7 @@ const phones = [
   {
     id: "girl-party-frock",
     name: "Girls' Party Wear Frock",
-    image: "girl-party-frock.jpeg",
+    image: "https://i.ibb.co/pvK3CpCG/3.jpg",
     price: 899,
     originalPrice: 1299,
     discount: "-31%",
@@ -38,7 +38,7 @@ const phones = [
   {
     id: "boys-casual-shirt",
     name: "Boys Checked Casual Shirt",
-    image: "boys-casual-shirt.jpeg",
+    image: "https://i.ibb.co/dJbrdGVp/4.jpg",
     price: 499,
     originalPrice: 699,
     discount: "-29%",
@@ -50,7 +50,7 @@ const phones = [
   {
     id: "newborn-onesie-pack",
     name: "Newborn Onesie 3-Pack",
-    image: "newborn-onesie-pack.jpeg",
+    image: "https://i.ibb.co/67W1rkN7/5.jpg",
     price: 749,
     originalPrice: 999,
     discount: "-25%",
