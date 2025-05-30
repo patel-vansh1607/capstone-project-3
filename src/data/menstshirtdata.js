@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "puma-round-neck-tshirt",
     name: "Puma Men's Graphic Printed T-shirt",
-    image: "puma-tshirt.jpeg",
+    image: "https://i.ibb.co/Fkh3XYNM/1.jpg",
     price: 999,
     originalPrice: 1399,
     discount: "-29%",
@@ -15,7 +15,7 @@ const laptop = [
   {
     id: "nike-dri-fit-tshirt",
     name: "Nike Men's Dri-FIT Running T-shirt",
-    image: "nike-dri-fit.jpeg",
+    image: "https://i.ibb.co/Y4dy75D1/2.jpg",
     price: 1299,
     originalPrice: 1799,
     discount: "-28%",
@@ -28,7 +28,7 @@ const laptop = [
   {
     id: "hrx-crew-neck-tshirt",
     name: "HRX by Hrithik Roshan Men's Crew Neck T-shirt",
-    image: "hrx-crew-tshirt.jpeg",
+    image: "https://i.ibb.co/pvsWMN3B/3.jpg",
     price: 699,
     originalPrice: 999,
     discount: "-30%",
@@ -41,7 +41,7 @@ const laptop = [
   {
     id: "levis-striped-tshirt",
     name: "Levi's Men's Striped Cotton T-shirt",
-    image: "levis-striped-tshirt.jpeg",
+    image: "https://i.ibb.co/QFrBf7Mg/4.jpg",
     price: 1099,
     originalPrice: 1499,
     discount: "-27%",
@@ -54,7 +54,7 @@ const laptop = [
   {
     id: "roadster-graphic-tshirt",
     name: "Roadster Men's Graphic Printed T-shirt",
-    image: "roadster-graphic-tshirt.jpeg",
+    image: "https://i.ibb.co/XZ9gzsB8/5.jpg",
     price: 599,
     originalPrice: 899,
     discount: "-33%",
