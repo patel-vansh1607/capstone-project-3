@@ -5,7 +5,10 @@ import "../../styles/MobileDeals.css";
 
 const MobileDeals = () => {
   return (
-    <div className="deals-container">
+    <div className="title">
+      <h2 className="deals-title">Mobile Deals</h2>
+      <p className="deals-description">Discover the latest mobile deals with exclusive discounts and offers. Shop now to save big on top brands!</p>
+      <div className="deals-container">
       {phones.map((phone) => (
         <Link to={`/phone/${phone.id}`} key={phone.id} className="phone-card">
           {phone.discount && <span className="discount-badge">{phone.discount}</span>}
@@ -17,6 +20,7 @@ const MobileDeals = () => {
           )}
         </Link>
       ))}
+    </div>
     </div>
   );
 };
