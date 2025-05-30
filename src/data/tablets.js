@@ -2,7 +2,7 @@ const phones = [
   {
     id: "ipad-pro-12-9-2022",
     name: "Apple iPad Pro 12.9\" (2022)",
-    image: "ipad-pro-12-9-2022.jpeg",
+    image: "https://i.ibb.co/qLd0NjZt/12-9.jpg",
     price: 139999,
     originalPrice: 149999,
     discount: "-7%",
@@ -15,7 +15,7 @@ const phones = [
   {
     id: "samsung-galaxy-tab-s9-ultra",
     name: "Samsung Galaxy Tab S9 Ultra",
-    image: "galaxy-tab-s9-ultra.jpeg",
+    image: "https://i.ibb.co/5W3JfDJ2/samsung.jpg",
     price: 124999,
     originalPrice: 134999,
     discount: "-7%",
@@ -28,7 +28,7 @@ const phones = [
   {
     id: "xiaomi-pad-6",
     name: "Xiaomi Pad 6",
-    image: "xiaomi-pad-6.jpeg",
+    image: "https://i.ibb.co/Zzzwq7rD/xiami.jpg",
     price: 28999,
     originalPrice: 31999,
     discount: "-9%",
@@ -41,7 +41,7 @@ const phones = [
   {
     id: "lenovo-tab-p12-pro",
     name: "Lenovo Tab P12 Pro",
-    image: "lenovo-tab-p12-pro.jpeg",
+    image: "https://i.ibb.co/DBJr2XH/lenvov.jpg",
     price: 74999,
     originalPrice: 79999,
     discount: "-6%",
@@ -54,7 +54,7 @@ const phones = [
   {
     id: "ipad-air-2022",
     name: "Apple iPad Air (2022)",
-    image: "ipad-air-2022.jpeg",
+    image: "https://i.ibb.co/B5rKXs2L/ipad-air.jpg",
     price: 64999,
     originalPrice: 69999,
     discount: "-7%",
