@@ -2,7 +2,7 @@ const phones = [
   {
     id: "samsung-crystal-uhd",
     name: "Samsung 55\" Crystal 4K UHD Smart TV",
-    image: "samsung-crystal-uhd.jpeg",
+    image: "https://i.ibb.co/MD9J0btP/1.jpg",
     price: 45999,
     originalPrice: 59999,
     discount: "-23%",
@@ -15,7 +15,7 @@ const phones = [
   {
     id: "lg-oled-c2",
     name: "LG 55\" OLED evo C2 Smart TV",
-    image: "lg-oled-c2.jpeg",
+    image: "https://i.ibb.co/27RDvJLx/2.jpg",
     price: 114999,
     originalPrice: 139999,
     discount: "-18%",
@@ -28,7 +28,7 @@ const phones = [
   {
     id: "sony-bravia-x80k",
     name: "Sony Bravia 55\" X80K 4K Smart TV",
-    image: "sony-x80k.jpeg",
+    image: "https://i.ibb.co/FLt8hgQY/3.jpg",
     price: 74999,
     originalPrice: 89999,
     discount: "-17%",
@@ -41,7 +41,7 @@ const phones = [
   {
     id: "oneplus-y1s-pro",
     name: "OnePlus 43\" Y1S Pro 4K Smart TV",
-    image: "oneplus-y1s-pro.jpeg",
+    image: "https://i.ibb.co/bggzjrSm/4.jpg",
     price: 27999,
     originalPrice: 34999,
     discount: "-20%",
@@ -54,7 +54,7 @@ const phones = [
   {
     id: "mi-x-series",
     name: "Mi 50\" X Series 4K Smart TV",
-    image: "mi-x-series.jpeg",
+    image: "https://i.ibb.co/FkNGz0gJ/5.jpg",
     price: 31999,
     originalPrice: 42999,
     discount: "-26%",
