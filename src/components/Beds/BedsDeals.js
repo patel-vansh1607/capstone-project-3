@@ -5,6 +5,9 @@ import "../../styles/MobileDeals.css";
 
 const LaptopDeals = () => {
   return (
+    <div className="title">
+      <h2 className="sui1" >Beds Deals</h2>
+      <p  className="sui2">Discover the latest beds deals with exclusive discounts and offers. Shop now to save big on top brands!</p>
     <div className="deals-container">
       {phones.map((phone) => (
         <Link to={`/beds/${phone.id}`} key={phone.id} className="phone-card">
@@ -18,6 +21,8 @@ const LaptopDeals = () => {
         </Link>
       ))}
     </div>
+    </div>
+    
   );
 };
 

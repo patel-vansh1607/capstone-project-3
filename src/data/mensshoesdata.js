@@ -2,7 +2,7 @@ const laptop = [
    {
     id: "nike-revolution-running-shoes",
     name: "Nike Revolution 6 Running Shoes",
-    image: "nike-revolution.jpeg",
+    image: "https://i.ibb.co/3mXG48WJ/1.jpg",
     price: 3299,
     originalPrice: 4499,
     discount: "-27%",
@@ -15,7 +15,7 @@ const laptop = [
   {
     id: "adidas-duramo-sports-shoes",
     name: "Adidas Duramo SL Sports Shoes",
-    image: "adidas-duramo.jpeg",
+    image: "https://i.ibb.co/mrNP40H5/2.jpg",
     price: 2999,
     originalPrice: 4299,
     discount: "-30%",
@@ -28,7 +28,7 @@ const laptop = [
   {
     id: "sparx-casual-shoes",
     name: "Sparx Men's Casual Slip-On Shoes",
-    image: "sparx-casual.jpeg",
+    image: "https://i.ibb.co/mVwz91Jg/3.jpg",
     price: 1199,
     originalPrice: 1599,
     discount: "-25%",
@@ -41,7 +41,7 @@ const laptop = [
   {
     id: "bata-formal-shoes",
     name: "Bata Men's Leather Formal Shoes",
-    image: "bata-formal.jpeg",
+    image: "https://i.ibb.co/nqbnPYTM/4.jpg",
     price: 1999,
     originalPrice: 2699,
     discount: "-26%",
@@ -54,7 +54,7 @@ const laptop = [
   {
     id: "woodland-outdoor-shoes",
     name: "Woodland Men's Outdoor Leather Shoes",
-    image: "woodland-outdoor.jpeg",
+    image: "https://i.ibb.co/MxNM78yL/5.jpg",
     price: 3499,
     originalPrice: 4999,
     discount: "-30%",

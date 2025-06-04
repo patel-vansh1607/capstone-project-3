@@ -10,19 +10,20 @@
   font-family: 'Crust';
   src: url(../fonts/Crustaceans-SignatureDEMO-Regular-BF6554d05c3bb6b.otf);
 }
-.title h2{
+.sui1{
   font-family: 'Crust', sans-serif;
   font-size: 80px;
   font-weight: 100;
   display: flex;
   padding-left: 150px;
   padding-top: 20px;
-}.title p{
+}
+.sui2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: 100;
-    display: flex;
-padding-left: 150px;
+  display: flex;
+  padding-left: 150px;
 }
 .deals-container {
   display: flex;

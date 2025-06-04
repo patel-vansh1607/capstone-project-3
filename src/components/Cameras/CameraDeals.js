@@ -5,9 +5,9 @@ import "../../styles/MobileDeals.css";
 
 const LaptopDeals = () => {
   return (
-    <div className="title">
-      <h2 className="deals-title">Camera Deals</h2>
-      <p className="deals-description">Discover the latest camera deals with exclusive discounts and offers. Shop now to save big on top brands!</p>
+    <div className="title1">
+      <h2 className="sui1" >Camera Deals</h2>
+      <p  className="sui2">Discover the latest camera deals with exclusive discounts and offers. Shop now to save big on top brands!</p>
       <div className="deals-container">
       {phones.map((phone) => (
         <Link to={`/camera/${phone.id}`} key={phone.id} className="phone-card">

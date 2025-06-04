@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "levis-slim-jeans",
     name: "Levi's Men's 512 Slim Tapered Fit Jeans",
-    image: "levis-slim-jeans.jpeg",
+    image: "https://i.ibb.co/qMgc3szs/1.jpg",
     price: 2499,
     originalPrice: 3199,
     discount: "-22%",
@@ -15,7 +15,7 @@ const laptop = [
   {
     id: "wrangler-regular-jeans",
     name: "Wrangler Men's Regular Fit Jeans",
-    image: "wrangler-regular-jeans.jpeg",
+    image: "https://i.ibb.co/DHS5n725/2.jpg",
     price: 1999,
     originalPrice: 2699,
     discount: "-26%",
@@ -28,7 +28,7 @@ const laptop = [
   {
     id: "roadster-distressed-jeans",
     name: "Roadster Men's Distressed Skinny Fit Jeans",
-    image: "roadster-distressed-jeans.jpeg",
+    image: "https://i.ibb.co/4gChjWHn/3.jpg",
     price: 1499,
     originalPrice: 2199,
     discount: "-32%",
@@ -41,7 +41,7 @@ const laptop = [
   {
     id: "pepe-straight-jeans",
     name: "Pepe Jeans Men's Straight Fit Jeans",
-    image: "pepe-straight-jeans.jpeg",
+    image: "https://i.ibb.co/1G250H6N/4.jpg",
     price: 2299,
     originalPrice: 2899,
     discount: "-21%",
@@ -54,7 +54,7 @@ const laptop = [
   {
     id: "mufti-slim-fit-jeans",
     name: "Mufti Men's Stretch Slim Fit Jeans",
-    image: "mufti-slim-fit-jeans.jpeg",
+    image: "https://i.ibb.co/j9RjgR3n/5.jpg",
     price: 1699,
     originalPrice: 2399,
     discount: "-29%",
