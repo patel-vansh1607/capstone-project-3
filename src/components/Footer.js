@@ -61,17 +61,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-links">
-          <span>Become a Seller</span>
-          <span>Advertise</span>
-          <span>Gift Cards</span>
-          <span>Help Center</span>
           <span>© 2025 Technologia.com</span>
-        </div>
-        <div className="footer-payments">
-          {/* <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa" />
-          <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" />
-          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay" /> */}
-          {/* Add more icons as needed */}
         </div>
       </div>
     </footer>
