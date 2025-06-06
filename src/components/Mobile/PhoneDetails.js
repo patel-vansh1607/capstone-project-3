@@ -5,7 +5,7 @@ import { useCart } from "../../context/CartContext";
 
 const PhoneDetails = () => {
     const { id } = useParams();
-        const { addToCart } = useCart();
+    const { addToCart } = useCart();
     
 
   console.log("URL param ID:", id);
