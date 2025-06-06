@@ -57,7 +57,7 @@ function App() {
     </div>
       <section className="about">
         <h2>Why Shop With Us?</h2>
-        <p>TrendCart is built for you—the smart shopper who values quality, affordability, and convenience. Whether you’re shopping for fashion, electronics, or everyday essentials, we’ve got you covered with unbeatable deals and reliable service.</p>
+        <p>Technologia is built for you—the smart shopper who values quality, affordability, and convenience. Whether you’re shopping for fashion, electronics, or everyday essentials, we’ve got you covered with unbeatable deals and reliable service.</p>
         <p>Join our growing community of happy customers across Kenya and experience shopping like never before.</p>
         <p>We partner with trusted brands and manufacturers to bring you genuine, high-quality products. Our customer satisfaction rate is among the highest in the region.</p>
         <p>Enjoy a hassle-free return policy, same-day dispatch, and a user-friendly shopping experience from the comfort of your home or on the go.</p>
