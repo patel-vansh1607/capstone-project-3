@@ -46,31 +46,41 @@ const NavList = () => {
 
   return (
     <nav className="navbar">
-      {menuItems.map((menu, index) => (
-        <div
-          key={index}
-          className="nav-item"
-          onMouseEnter={() => setActiveMenu(index)}
-          onMouseLeave={() => setActiveMenu(null)}
-        >
-          <Link to={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}`}>{menu.title}</Link>
-          {menu.items.length > 0 && activeMenu === index && (
-            <div className="dropdown">
-              {menu.items.map((item, idx) => (
-                <Link
-                  key={idx}
-                  to={`/${menu.title.toLowerCase().replace(/ & | /g, "-")}/${item.toLowerCase().replace(/ /g, "-")}`}
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
-          )}
-        </div>
-      ))}
+      {menuItems.map((menu, index) => {
+        const path = menu.title.toLowerCase().replace(/ & | /g, "-");
+        return (
+          <div
+            key={index}
+            className="nav-item"
+            onMouseEnter={() => setActiveMenu(index)}
+            onMouseLeave={() => setActiveMenu(null)}
+          >
+            <Link to={`/${path}`}>
+              <img
+                src={`/images/icons/${path}.png`}
+                alt={menu.title}
+                className="nav-icon"
+              />
+              <div className="nav-title">{menu.title}</div>
+            </Link>
+
+            {menu.items.length > 0 && activeMenu === index && (
+              <div className="dropdown">
+                {menu.items.map((item, idx) => (
+                  <Link
+                    key={idx}
+                    to={`/${path}/${item.toLowerCase().replace(/ /g, "-")}`}
+                  >
+                    {item}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </nav>
   );
-}; 
+};
 
-
-export  default NavList;
+export default NavList;

@@ -1,4 +1,3 @@
-/* Navbar.css */
 
 .navbar {
   display: flex;
@@ -15,61 +14,101 @@
   position: relative;
   padding: 16px;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-item a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
-  white-space: nowrap;
   font-weight: 600;
 }
 
 .nav-item:hover > a {
   color: #26022b;
 }
-
 .dropdown {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
   min-width: 200px;
-  padding: 10px 0;
+  padding: 8px 0;
   display: flex;
   flex-direction: column;
   z-index: 1001;
+  transition: all 0.2s ease;
 }
 
+
 .dropdown a {
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   color: #333;
   font-size: 14px;
+  font-family: 'Rajdhani', sans-serif;
+  transition: background 0.2s ease, color 0.2s ease;
 }
+
 
 .dropdown a:hover {
-  background-color: #f5f5f5;
-  color: #d410ee;
+  background-color: #f2f2f2;
+  color: #2874f0;
+  padding-left: 20px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 8px;
+    scrollbar-width: none; 
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none; 
   }
 
   .nav-item {
-    width: 100%;
+    padding: 12px 16px;
   }
 
   .dropdown {
-    position: static;
-    box-shadow: none;
-    border: none;
-    padding-left: 24px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    z-index: 1001;
   }
+}
+
+.nav-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.nav-title {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.2;
 }
