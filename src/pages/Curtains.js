@@ -8,7 +8,7 @@ const Camera = () => {
         <div>
             <Navbar />
             <NavList />
-            <CurtainsDeals />
+            
             <Footer />
         </div>
     )
