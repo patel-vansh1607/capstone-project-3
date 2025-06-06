@@ -31,7 +31,6 @@ const Navbar = () => {
         <li><a href="/"><span className="roller">Home</span></a></li>
         <li><a href="/products"><span className="roller">Products</span></a></li>
         <li><a href="/cart"><span className="roller">Cart</span></a></li>
-        <li><a href="/resources"><span className="roller">Checkout</span></a></li>
       </ul>
 
       <div className="nav-icons">
@@ -44,17 +43,10 @@ const Navbar = () => {
             className="search-input"
           />
         </form>
-        <button className="icon-button" title="Search" onClick={() => setSearchOpen(!searchOpen)}>
-          <FiSearch />
-        </button>
         <Link to="/cart" className="icon-button cart-icon-wrapper" title="Cart">
           <FiShoppingCart />
           {cart.length > 0 && <span className="cart-count">{cart.length}</span>}
         </Link>
-
-        <button className="icon-button" title="Profile">
-          <FiUser />
-        </button>
       </div>
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>☰</div>

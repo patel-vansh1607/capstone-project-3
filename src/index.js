@@ -80,6 +80,7 @@ import HomeFuniture from './pages/homefuniture';
 import SportMore from './pages/sportsmore';
 import { CartProvider } from './context/CartContext';
 import Cart2 from './pages/Cart';
+import Products from './components/Products';
 
 
 
@@ -385,8 +386,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element:<Cart2 />
-
+    element:<Cart2 />,
+  },
+  {
+    path: "/products",
+    element: <Products />
   }
 ])
 root.render(
