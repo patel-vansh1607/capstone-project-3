@@ -1,0 +1,135 @@
+/* Home.css */
+
+.home {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(to left, #361855, #a162a8);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #26022b;
+  color: #FFFFFF;
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #633c68;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.feature {
+  flex: 1 1 250px;
+  margin: 20px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  color: #a162a8;
+}
+
+.about {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #a162a8;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+
+.mt{
+     font-family: 'Brilliant', sans-serif;
+}
+.faded-hr {
+  border: none;
+  height: 10px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  margin: 40px 0;
+}
+.promo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .promo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.promo-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.promo-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.promo-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    padding: 30px 15px;
+  }
+}
