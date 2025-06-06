@@ -25,7 +25,7 @@ const PhoneDetails = () => {
           <p className="detail-price">KSh {phone.price.toLocaleString()} <span className="original">{phone.originalPrice ? `KSh ${phone.originalPrice}` : ''}</span> <span className="discount">{phone.discount}</span></p>
           <p><strong>Brand:</strong> {phone.brand}</p>
           <p><strong>Shipping:</strong> {phone.shipping}</p>
-          <button className="buy-btn"  onClick={() => addToCart(phone)}>Add to cart</button>
+          <button className="buy-btn" onClick={() => addToCart(phone)}>Add to cart</button>
         </div>
       </div>
     </div>
