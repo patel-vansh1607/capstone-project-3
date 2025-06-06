@@ -78,7 +78,8 @@ import Women from './pages/women';
 import BabyKids from './pages/babykids';
 import HomeFuniture from './pages/homefuniture';
 import SportMore from './pages/sportsmore';
-
+import { CartProvider } from './context/CartContext';
+import Cart2 from './pages/Cart';
 
 
 
@@ -381,12 +382,19 @@ const router = createBrowserRouter([
   {
     path: "/sports,-books-more", 
     element:<SportMore/>,
+  },
+  {
+    path: "/cart",
+    element:<Cart2 />
+
   }
 ])
 root.render(
+  <CartProvider>
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
+  </CartProvider>
 
 );
 
