@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import phones from "../../data/curtainsdata";
 import "../../styles/MobileDeals.css";
