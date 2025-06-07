@@ -81,8 +81,7 @@ import SportMore from './pages/sportsmore';
 import { CartProvider } from './context/CartContext';
 import Cart2 from './pages/Cart';
 import Products from './components/Products';
-
-
+import Flights from './pages/Flights'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -315,6 +314,10 @@ const router = createBrowserRouter([
   {
     path: "/music/:id", 
     element:<MusicDetails />,
+  },
+  {
+    path: "/flights",
+    element: <Flights />,
   },
   {
     path: "/contact", 
