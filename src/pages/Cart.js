@@ -43,9 +43,9 @@ const Cart = () => {
   // Store Info
   doc.setFontSize(12);
   doc.setTextColor(40);
-  doc.text("Your Store Name", 60, 15);
-  doc.text("123 Main Street, Nairobi, Kenya", 60, 21);
-  doc.text("Phone: +254 700 000000", 60, 27);
+  doc.text("Technologia Mart Ltd", 60, 15);
+  doc.text("Nakuru, Kenya", 60, 21);
+  doc.text("Phone: +254 748 660944", 60, 27);
 
   // Divider line
   doc.setDrawColor(200);
@@ -100,7 +100,7 @@ const Cart = () => {
   doc.setFont(undefined, "normal");
   doc.setTextColor(100);
   doc.text("Thank you for shopping with us!", 14, finalY + 48);
-  doc.text("Visit again: www.yourstore.com", 14, finalY + 54);
+  doc.text("Visit again: www.technolgia.com", 14, finalY + 54);
 
   doc.save("receipt.pdf");
 };
