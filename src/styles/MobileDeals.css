@@ -82,7 +82,7 @@
   font-family: 'Reg', sans-serif
 }
 
-/* Phone Details Page */
+
 .phone-details {
   padding: 20px;
 }
@@ -139,7 +139,7 @@
   margin-top: 12px;
 }
 
-/* Responsive */
+
 @media (min-width: 768px) {
   .details-container {
     flex-direction: row;
