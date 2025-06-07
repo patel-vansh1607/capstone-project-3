@@ -3,6 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import phones from "../../data/refrigeratordata";
 import "../../styles/MobileDeals.css";
 import { useCart } from "../../context/CartContext";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 
 const PhoneDetails = () => {
@@ -16,7 +18,9 @@ const PhoneDetails = () => {
   if (!phone) return <h2>Refrigerator not found</h2>;
 
   return (
-    <div className="phone-details">
+   <div>
+    <Navbar />
+     <div className="phone-details">
       <Link to="/" className="back-link">← Back to deals</Link>
       <div className="details-container">
         <img src={phone.image} alt={phone.name} className="detail-image" />
@@ -31,6 +35,8 @@ const PhoneDetails = () => {
         </div>
       </div>
     </div>
+    <Footer />
+   </div>
   );
 };
 
