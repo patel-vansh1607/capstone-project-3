@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
-import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
+import { FiShoppingCart  } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { useCart } from "../context/CartContext";
 
