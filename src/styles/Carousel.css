@@ -1,4 +1,4 @@
-/* General styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -70,7 +70,7 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsiveness */
+
 @media (max-width: 768px) {
   .carousel-content h2 {
     font-size: 1.5rem;
