@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "queen-wooden-bed",
     name: "Queen Size Wooden Bed with Storage",
-    image: "queen-wooden-bed.jpeg",
+    image: "https://i.ibb.co/dwQfkpPb/1.jpg",
     price: 18999,
     originalPrice: 22999,
     discount: "-17%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "metal-double-bed",
     name: "Double Bed Metal Frame",
-    image: "metal-double-bed.jpeg",
+    image: "https://i.ibb.co/Pq9Np0J/2.jpg",
     price: 8999,
     originalPrice: 10999,
     discount: "-18%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "kids-bunk-bed",
     name: "Kids Wooden Bunk Bed",
-    image: "kids-bunk-bed.jpeg",
+    image: "https://i.ibb.co/qFkGyT7W/3.jpg",
     price: 14999,
     originalPrice: 17999,
     discount: "-17%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "storage-bed-box",
     name: "King Size Bed with Box Storage",
-    image: "storage-bed-box.jpeg",
+    image: "https://i.ibb.co/BbJdWfb/4.jpg",
     price: 20999,
     originalPrice: 24999,
     discount: "-16%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "sofa-cum-bed",
     name: "Sofa Cum Bed (Folding)",
-    image: "sofa-cum-bed.jpeg",
+    image: "https://i.ibb.co/9H4TQF3N/5.jpg",
     price: 9999,
     originalPrice: 12999,
     discount: "-23%",
