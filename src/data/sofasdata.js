@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "3-seater-fabric-sofa",
     name: "3-Seater Fabric Sofa",
-    image: "3-seater-fabric-sofa.jpeg",
+    image: "https://i.ibb.co/gbxsr5K7/1.jpg",
     price: 15999,
     originalPrice: 18999,
     discount: "-16%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "leatherette-l-shape",
     name: "L-Shaped Leatherette Sofa",
-    image: "leatherette-l-shape.jpeg",
+    image: "https://i.ibb.co/k6HpQqzW/2.jpg",
     price: 24999,
     originalPrice: 29999,
     discount: "-17%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "wooden-2-seater",
     name: "2-Seater Wooden Sofa",
-    image: "wooden-2-seater.jpeg",
+    image: "https://i.ibb.co/v4PVWS5z/3.jpg",
     price: 8999,
     originalPrice: 11499,
     discount: "-22%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "recliner-sofa",
     name: "Manual Recliner Single Seat",
-    image: "recliner-sofa.jpeg",
+    image: "https://i.ibb.co/HLQFBf7Y/4.jpg",
     price: 11999,
     originalPrice: 14999,
     discount: "-20%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "fabric-sofa-bed",
     name: "Fabric Sofa Cum Bed",
-    image: "fabric-sofa-bed.jpeg",
+    image: "https://i.ibb.co/C34Wf3tj/5.jpg",
     price: 9999,
     originalPrice: 13499,
     discount: "-26%",
