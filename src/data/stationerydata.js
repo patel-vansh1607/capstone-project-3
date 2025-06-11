@@ -7,7 +7,7 @@ const laptop = [
     discount: "-35%",
     brand: "Cello",
     rating: 4.4,
-    image: "gel-pen-set.jpg"
+    image: "https://i.ibb.co/gLy4nWr4/1.jpg"
   },
   {
     id: "notebook-set",
@@ -17,7 +17,7 @@ const laptop = [
     discount: "-29%",
     brand: "Classmate",
     rating: 4.6,
-    image: "notebook-set.jpg"
+    image: "https://i.ibb.co/3y4cncwM/2.jpg"
   },
   {
     id: "highlighter-pack",
@@ -27,7 +27,7 @@ const laptop = [
     discount: "-28%",
     brand: "Faber-Castell",
     rating: 4.3,
-    image: "highlighters.jpg"
+    image: "https://i.ibb.co/TBNxHJFR/3.jpg"
   },
   {
     id: "geometry-box",
@@ -37,7 +37,7 @@ const laptop = [
     discount: "-31%",
     brand: "Camlin",
     rating: 4.5,
-    image: "geometry-box.jpg"
+    image: "https://i.ibb.co/v6Ryv2Zr/4.jpg"
   },
   {
     id: "desk-organizer",
@@ -47,7 +47,7 @@ const laptop = [
     discount: "-20%",
     brand: "Amazon Basics",
     rating: 4.7,
-    image: "desk-organizer.jpg"
+    image: "https://i.ibb.co/tMDCh9Tt/5.jpg"
   }
 ];
 
