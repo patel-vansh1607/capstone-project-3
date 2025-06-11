@@ -2,7 +2,7 @@ const laptop = [
    {
     id: "4-seater-wooden-dining",
     name: "4-Seater Wooden Dining Table",
-    image: "4-seater-wooden-dining.jpeg",
+    image: "https://i.ibb.co/ymhzJcKR/1.jpg",
     price: 11999,
     originalPrice: 14999,
     discount: "-20%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "glass-top-6-seater",
     name: "6-Seater Glass Top Dining Set",
-    image: "glass-top-6-seater.jpeg",
+    image: "https://i.ibb.co/G43S946X/2.jpg",
     price: 18999,
     originalPrice: 21999,
     discount: "-14%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "folding-dining-set",
     name: "Folding Dining Table with 4 Stools",
-    image: "folding-dining-set.jpeg",
+    image: "https://i.ibb.co/hJLj2TBy/3.jpg",
     price: 6999,
     originalPrice: 9999,
     discount: "-30%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "round-dining-table",
     name: "Round Wooden Dining Table",
-    image: "round-dining-table.jpeg",
+    image: "https://i.ibb.co/mrhLMmsB/4.jpg",
     price: 7999,
     originalPrice: 10499,
     discount: "-24%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "kids-dining-set",
     name: "Kids Dining Set – 2 Chairs + Table",
-    image: "kids-dining-set.jpeg",
+    image: "https://i.ibb.co/LdpzTq5Z/5.jpg",
     price: 4499,
     originalPrice: 5999,
     discount: "-25%",
