@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "spiderman-schoolbag",
     name: "Spiderman Kids School Bag",
-    image: "spiderman-schoolbag.jpeg",
+    image: "https://i.ibb.co/9kVhRMNs/1.jpg",
     price: 799,
     originalPrice: 999,
     discount: "-20%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "color-pencil-box",
     name: "Faber-Castell Color Pencils (24)",
-    image: "color-pencil-box.jpeg",
+    image: "https://i.ibb.co/tpkYJ9jR/2.jpg",
     price: 249,
     originalPrice: 349,
     discount: "-29%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "geometry-box",
     name: "Camlin Geometry Box",
-    image: "geometry-box.jpeg",
+    image: "https://i.ibb.co/Pvrd1HHb/3.jpg",
     price: 149,
     originalPrice: 199,
     discount: "-25%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "disney-lunchbox",
     name: "Disney Mickey Mouse Lunch Box",
-    image: "disney-lunchbox.jpeg",
+    image: "https://i.ibb.co/dJDxp9jp/4.jpg",
     price: 349,
     originalPrice: 499,
     discount: "-30%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "stationery-kit",
     name: "Kids Stationery Kit (10 pcs)",
-    image: "stationery-kit.jpeg",
+    image: "https://i.ibb.co/jZvk8kmq/5.jpg",
     price: 199,
     originalPrice: 299,
     discount: "-33%",
