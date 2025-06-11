@@ -7,7 +7,7 @@ const laptop = [
     discount: "-13%",
     brand: "Juarez",
     rating: 4.5,
-    image: "acoustic-guitar.jpg"
+    image: "https://i.ibb.co/60hbcMq5/1.jpg"
   },
   {
     id: "keyboard-61keys",
@@ -17,7 +17,7 @@ const laptop = [
     discount: "-17%",
     brand: "Casio",
     rating: 4.6,
-    image: "keyboard.jpg"
+    image: "https://i.ibb.co/x8KH0LJT/2.jpg"
   },
   {
     id: "ukulele-soprano",
@@ -27,7 +27,7 @@ const laptop = [
     discount: "-20%",
     brand: "Vault",
     rating: 4.4,
-    image: "ukulele.jpg"
+    image: "https://i.ibb.co/8n7RsSmR/3.jpg"
   },
   {
     id: "tabla-set",
@@ -37,7 +37,7 @@ const laptop = [
     discount: "-19%",
     brand: "Percussion Mall",
     rating: 4.3,
-    image: "tabla-set.jpg"
+    image: "https://i.ibb.co/WN35fsT1/4.jpg"
   },
   {
     id: "studio-headphones",
@@ -47,7 +47,7 @@ const laptop = [
     discount: "-25%",
     brand: "AKG",
     rating: 4.7,
-    image: "studio-headphones.jpg"
+    image: "https://i.ibb.co/3YN1hgX9/5.jpg"
   }
 ];
 
