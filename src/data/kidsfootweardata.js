@@ -2,7 +2,7 @@ const laptop = [
    {
     id: "light-up-sneakers",
     name: "Light-Up Kids Sneakers",
-    image: "light-up-sneakers.jpeg",
+    image: "https://i.ibb.co/Mkb5kJKW/1.jpg",
     price: 999,
     originalPrice: 1499,
     discount: "-33%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "baby-socks-shoes",
     name: "Baby Sock Shoes Pack of 2",
-    image: "baby-socks-shoes.jpeg",
+    image: "https://i.ibb.co/zLxDRFt/2.jpg",
     price: 449,
     originalPrice: 599,
     discount: "-25%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "boys-sports-shoes",
     name: "Boys Velcro Sports Shoes",
-    image: "boys-sports-shoes.jpeg",
+    image: "https://i.ibb.co/rRc2PmsM/3.jpg",
     price: 799,
     originalPrice: 1099,
     discount: "-27%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "girls-ballet-flats",
     name: "Girls Ballet Flats with Bow",
-    image: "girls-ballet-flats.jpeg",
+    image: "https://i.ibb.co/B261PS2W/4.jpg",
     price: 699,
     originalPrice: 999,
     discount: "-30%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "cartoon-sandals",
     name: "Cartoon Print Rubber Sandals",
-    image: "cartoon-sandals.jpeg",
+    image: "https://i.ibb.co/21qfrfQQ/5.jpg",
     price: 299,
     originalPrice: 449,
     discount: "-33%",
