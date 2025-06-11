@@ -2,7 +2,7 @@ const laptop = [
    {
     id: "blackout-curtains-pair",
     name: "Blackout Curtains (Set of 2)",
-    image: "/public/assets/iphone-13.jpeg",
+    image: "https://i.ibb.co/B0fXDB9/1.jpg",
     price: 899,
     originalPrice: 1199,
     discount: "-25%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "printed-sheer-curtain",
     name: "Printed Sheer Curtain",
-    image: "printed-sheer-curtain.jpeg",
+    image: "https://i.ibb.co/KxHbZgdD/2.jpg",
     price: 499,
     originalPrice: 699,
     discount: "-29%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "door-curtains-cotton",
     name: "Cotton Door Curtains",
-    image: "door-curtains-cotton.jpeg",
+    image: "https://i.ibb.co/7Jqd2Jcf/3.jpg",
     price: 699,
     originalPrice: 999,
     discount: "-30%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "kids-cartoon-curtain",
     name: "Kids Cartoon Print Curtain",
-    image: "kids-cartoon-curtain.jpeg",
+    image: "https://i.ibb.co/LzrF3WPj/4.jpg",
     price: 599,
     originalPrice: 849,
     discount: "-29%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "velvet-room-darkening",
     name: "Velvet Room Darkening Curtain",
-    image: "velvet-room-darkening.jpeg",
+    image: "https://i.ibb.co/h1FrzMSF/5.jpg",
     price: 999,
     originalPrice: 1299,
     discount: "-23%",
