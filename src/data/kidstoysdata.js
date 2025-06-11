@@ -2,7 +2,7 @@ const laptop = [
   {
     id: "lego-juniors-set",
     name: "LEGO Juniors Building Set",
-    image: "lego-juniors-set.jpeg",
+    image: "https://i.ibb.co/5w9X1by/1.jpg",
     price: 1599,
     originalPrice: 1999,
     discount: "-20%",
@@ -14,7 +14,7 @@ const laptop = [
   {
     id: "soft-animal-toy",
     name: "Soft Plush Animal Toy",
-    image: "soft-animal-toy.jpeg",
+    image: "https://i.ibb.co/ccVf2Jg4/2.jpg",
     price: 399,
     originalPrice: 599,
     discount: "-33%",
@@ -26,7 +26,7 @@ const laptop = [
   {
     id: "musical-rattle-set",
     name: "Baby Musical Rattle Set",
-    image: "musical-rattle-set.jpeg",
+    image: "https://i.ibb.co/bgnYwTdL/3.jpg",
     price: 349,
     originalPrice: 499,
     discount: "-30%",
@@ -38,7 +38,7 @@ const laptop = [
   {
     id: "kitchen-playset",
     name: "Mini Kitchen Play Set",
-    image: "kitchen-playset.jpeg",
+    image: "https://i.ibb.co/DPgjPJmT/4.jpg",
     price: 999,
     originalPrice: 1299,
     discount: "-23%",
@@ -50,7 +50,7 @@ const laptop = [
   {
     id: "remote-car-kids",
     name: "Remote Control Car",
-    image: "remote-car-kids.jpeg",
+    image: "https://i.ibb.co/QFCRHW0H/5.jpg",
     price: 1199,
     originalPrice: 1599,
     discount: "-25%",
