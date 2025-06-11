@@ -8,7 +8,7 @@ const laptop = [
     author: "James Clear",
     genre: "Self-help",
     rating: 4.8,
-    image: "atomic-habits.jpg",
+    image: "https://i.ibb.co/39J5NhCq/1.jpg",
   },
   {
     id: "ikigai",
@@ -19,7 +19,7 @@ const laptop = [
     author: "Héctor García & Francesc Miralles",
     genre: "Motivational",
     rating: 4.6,
-    image: "ikigai.jpg",
+    image: "https://i.ibb.co/21XzvYXC/2.jpg",
   },
   {
     id: "harry-potter-1",
@@ -30,7 +30,7 @@ const laptop = [
     author: "J.K. Rowling",
     genre: "Fantasy",
     rating: 4.9,
-    image: "harry-potter-1.jpg",
+    image: "https://i.ibb.co/G3Jrjw1p/3.jpg",
   },
   {
     id: "rich-dad",
@@ -41,7 +41,7 @@ const laptop = [
     author: "Robert Kiyosaki",
     genre: "Finance",
     rating: 4.7,
-    image: "rich-dad.jpg",
+    image: "https://i.ibb.co/VW7PVw8B/4.jpg",
   },
   {
     id: "think-fast",
@@ -52,7 +52,7 @@ const laptop = [
     author: "Daniel Kahneman",
     genre: "Psychology",
     rating: 4.5,
-    image: "think-fast.jpg",
+    image: "https://i.ibb.co/XZqFQqD6/5.jpg",
   }
 ];
 
