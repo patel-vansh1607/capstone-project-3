@@ -11,7 +11,7 @@ const PayementsPage = () => {
             <p>At Technologia, we support a wide range of secure payment methods:</p>
             <ul>
                 <li>Credit/Debit Cards (Visa, MasterCard, RuPay)</li>
-                <li>UPI (Google Pay, PhonePe, Paytm)</li>
+                <li>UPI ( M-Pesa, Airtel Money)</li>
                 <li>Net Banking (All Major Banks)</li>
                 <li>Cash on Delivery (Selected Locations)</li>
             </ul>
