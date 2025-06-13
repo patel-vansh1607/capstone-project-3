@@ -9,10 +9,12 @@ import { useNavigate } from 'react-router-dom';
 function App() {
   const navigate = useNavigate();
     const items = [
-    { src: 'https://i.ibb.co/23gy4MHj/1-02.jpg', route: '/s' },
-    { src: 'https://i.ibb.co/vv3RBdjx/1-03.jpg', route: '/' },
-    { src: 'https://i.ibb.co/8g24FTSX/1-04.jpg', route: '/' },
-    { src: 'https://i.ibb.co/4nGrNj7z/1-01.jpg', route: '/' },
+    { src: 'https://i.ibb.co/23gy4MHj/1-02.jpg', route: '/flights' },
+    { src: 'https://i.ibb.co/vv3RBdjx/1-03.jpg', route: '/electronics/laptops' },
+    { src: 'https://i.ibb.co/8g24FTSX/1-04.jpg', route: '/electronics/mobiles' },
+    { src: 'https://i.ibb.co/4nGrNj7z/1-01.jpg', route: '/baby-kids' },
+    { src: 'https://i.ibb.co/yF7n9zyT/ad-05.png', route: '/tvs-appliances/smart-tvs' },
+    { src: 'https://i.ibb.co/JR1TxfwC/ad-06.png', route: '/baby-kids/school-supplies' },
   ];
    const handleClick = (route) => {
     navigate(route);
