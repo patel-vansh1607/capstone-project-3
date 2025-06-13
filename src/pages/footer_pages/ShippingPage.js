@@ -8,9 +8,9 @@ const ShippingPage = () => {
             <Navbar />
            <div className="info-page">
             <h2>Shipping Information</h2>
-            <p>We provide reliable and fast delivery all across India:</p>
+            <p>We provide reliable and fast delivery all across Kenya:</p>
             <ul>
-                <li>Free shipping on orders above ₹999</li>
+                <li>Free shipping on orders above KSh 999</li>
                 <li>Delivery Time: 2–7 business days depending on your location</li>
                 <li>Real-time tracking via order page</li>
                 <li>Partnered with top courier services</li>
