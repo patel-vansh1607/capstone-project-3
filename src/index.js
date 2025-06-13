@@ -80,7 +80,7 @@ import HomeFuniture from './pages/homefuniture';
 import SportMore from './pages/sportsmore';
 import { CartProvider } from './context/CartContext';
 import Cart2 from './pages/Cart';
-import Products from './components/Products';
+/* import Products from './components/Products';*/
 import Flights from './pages/Flights'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -391,10 +391,10 @@ const router = createBrowserRouter([
     path: "/cart",
     element:<Cart2 />,
   },
-  {
+  /* {
     path: "/products",
     element: <Products />
-  }
+  } */
 ])
 root.render(
   <CartProvider>
