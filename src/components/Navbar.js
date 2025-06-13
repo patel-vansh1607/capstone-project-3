@@ -29,7 +29,6 @@ const Navbar = () => {
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <li><a href="/"><span className="roller">Home</span></a></li>
-        <li><a href="/products"><span className="roller">Products</span></a></li>
         <li><a href="/cart"><span className="roller">Cart</span></a></li>
       </ul>
 
