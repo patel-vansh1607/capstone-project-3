@@ -14,14 +14,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h4>GROUP COMPANIES</h4>
-          <ul>
-            <li><a href="/">Myntra</a></li>
-            <li><a href="/">Cleartrip</a></li>
-            <li><a href="/">Shopsy</a></li>
-          </ul>
-        </div>
-        <div className="footer-section">
           <h4>HELP</h4>
           <ul>
             <li><a href="/payements">Payments</a></li>
