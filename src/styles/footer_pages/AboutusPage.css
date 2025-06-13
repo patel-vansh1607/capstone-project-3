@@ -52,7 +52,6 @@
   line-height: 1.6;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .about-sections {
     flex-direction: column;

@@ -62,7 +62,6 @@
   text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .career-sections {
     flex-direction: column;

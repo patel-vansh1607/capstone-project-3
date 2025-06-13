@@ -35,7 +35,7 @@
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .info-page {
     margin: 20px;
