@@ -4,9 +4,9 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const products = [
-  { title: "Electronics", image: "/public/assets/iphone-13.jpeg", path: "/electronics" },
-  { title: "TV & Appliances", image: "/assets/tv2.png", path: "/tvs-appliances" },
-  { title: "Men", image: "/assets/tv3.png", path: "/men" },
+  { title: "Electronics", image: "https://i.ibb.co/xTTZBLW/s23.jpg", path: "/electronics" },
+  { title: "TV & Appliances", image: "https://i.ibb.co/27RDvJLx/2.jpg", path: "/tvs-appliances" },
+  { title: "Men", image: "https://i.ibb.co/DHS5n725/2.jpg", path: "/men" },
   { title: "Women", image: "/assets/tv4.png", path: "/women" },
   { title: "Baby & Kids", image: "/assets/tv2.png", path: "/baby-kids" },
   { title: "Home & Furniture", image: "/assets/tv3.png", path: "/home-furniture" },
